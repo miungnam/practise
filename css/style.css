@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #000;
+}
+p{
+    color: #999999;
+}
+a, a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    top: 40px;
+    padding-bottom: 30px;
+    border-bottom: #2D96E3 3px solid;
+
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.top-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-btn{
+    padding: 7px 10px 7px 10px;
+    height: 38px;
+    border: none;
+    background: #292E50;
+    border-radius: 3px;
+    margin: 76px  10px 10px;
+}
+.top-btn:hover{
+    background: #2C3DAC;
+}
+.top-menu_item{
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+#about{
+    padding: 100px 0 70px 0;
+}
+.col-7{
+    margin: 0 116px 0 -47px;
+    width: 70%;
+    height: 274px;
+    background: linear-gradient(244.93deg, rgba(41, 46, 80, 0.77) 44.75%, rgba(41, 46, 80, 0) 102.66%);
+    box-shadow: inset 0 4px 12px #000000;
+    position: relative;
+}
+.about-content img{
+     position: absolute;
+     top: -88px;
+     left: 215px;
+     z-index: 1;
+ }
+.col-5{
+    margin: 0 97px 0 44px;
+    width: 30%;
+    height: 274px;
+    background: linear-gradient(180deg, #20243E 0%, rgba(32, 36, 62, 0) 87.04%);
+    box-shadow: inset 0px 4px 12px #000000;
+    position: relative;
+}
+
+.circle-free{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background:radial-gradient(85% 85% at 50% 50%, #33AC38 40.1%, rgba(10, 163, 16, 0) 100%);
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    top: 10px;
+    left: 10px;
+}
+.pubg-player{
+    position: absolute;
+    top: -56px;
+    right: 48px;
+}
+.pubg-text{
+    position: absolute;
+    bottom: -12px;
+    right: -83px;
+}
+.about-title{
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    padding-top: 52px;
+    color: #ffffff;
+}
+.project-title{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left;
+    color: #E5E5E5;
+    margin: 50px 0 100px 0;
+}
+
+.col-4{
+    width: 25%;
+    padding: 10px;
+}
+.col-4_item{
+    width: 100%;
+}
+.project-list{
+    display: flex;
+}
+.name{
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left
+}
+.name span{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    color: #E5E5E5;
+}
+.col-4 img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.btn{
+    border: none;
+    background: #2C3DAC;
+    border-radius: 2px;
+    width: 180px;
+    height: 50px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    padding: 10px 30px 14px 5px;
+}
+.bot-dis{
+    display: flex;
+    justify-content: space-between;
+}
+.col-3-bottom_item{
+    width: 100%;
+    background:#292E50;
+    align-items: stretch;
+    height: 168px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4B4C51;
+    border-radius: 2px;
+    width: 60px;
+    height: 50px;
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;;
+}
+.col-3{
+    width: 25%;
+    padding: 10px;
+}
+.switch{
+    border: none;
+    background: #636262;
+}
